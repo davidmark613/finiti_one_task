@@ -1,0 +1,77 @@
+.todoForm {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.todoFormHeader {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.todoFormInputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todoFormInputContainer {
+  display: flex;
+}
+
+.todoFormInput {
+  width: 100%;
+  margin: 0px 16px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+}
+
+.todoFormStatus {
+  width: 145px;
+}
+
+.todoFormActions {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.button {
+  width: 100px;
+  padding: 6px 12px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #1168eb;
+  background: #1168eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  border: 1px solid #4582df;
+  background: #4582df;
+}
+
+.cancelButton {
+  border: 1px solid #c93d25;
+  background: #c93d25;
+}
+
+.cancelButton:hover,
+.cancelButton:active {
+  border: 1px solid #ff6347;
+  background: #ff6347;
+}
+
+
+

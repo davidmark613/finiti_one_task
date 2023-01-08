@@ -1,0 +1,29 @@
+.todoList {
+  width: 80%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 7px rgb(0 0 0 / 30%);
+}
+
+.todoListContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+}
+
+.noTodos {
+  text-align: center;
+  margin: 15px 0 20px;
+  padding: 5px 0;
+  font-size: 14px;
+  color: gray;
+}
+
+@media (min-width: 1160px) {
+  .todoListContent {
+    gap: 5px;
+    padding: 12px;
+  }
+}

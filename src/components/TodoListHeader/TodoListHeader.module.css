@@ -1,0 +1,96 @@
+.todosHeader {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.todosSubHeaders {
+  width: 80%;
+  display: flex;
+}
+
+.todosStatus {
+  text-align: center;
+}
+
+.todosDate {
+  text-align: center;
+}
+
+.sortButton {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  color: gray;
+  cursor: pointer;
+}
+
+.sortButton:hover,
+.sortButton:active {
+  border-color: gray;
+  background: #fff;
+  color: gray;
+}
+
+.todosActions {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 80px;
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid #1168eb;
+  background: #1168eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  border: 1px solid #1168eb;
+  background: #fff;
+  color: #1168eb;
+}
+
+@media (min-width: 1160px) {
+  .todosSubHeaders {
+    gap: 0;
+  }
+
+  .todosStatus {
+    width: 15%;
+  }
+
+  .todosName {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    margin: 0 3px;
+  }
+
+  .todosDate {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+  }
+
+  .button {
+    font: inherit;
+    font-weight: 500;
+    width: 120px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: 1px solid #1168eb;
+    background: #1168eb;
+    color: #fff;
+    cursor: pointer;
+  }
+}

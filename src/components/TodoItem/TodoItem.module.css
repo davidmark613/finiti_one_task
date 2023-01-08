@@ -1,0 +1,115 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+  gap: 20px;
+}
+
+.todoItemContent {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.todoItemStatusContainer {
+  height: 21.5px;
+  display: flex;
+}
+
+.todoItemStatus {
+  height: 100%;
+  width: 36px;
+  background-color: #1168eb;
+  border-radius: 20px;
+  padding: 0px 8px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+.statusDone {
+  background-color: #c93d25;
+}
+
+.todoItemLabel {
+  width: 100%;
+  color: #424141;
+}
+
+.todoItemDate {
+  width: 100%;
+  color: #424141;
+}
+
+.todoItemActions {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  width: 80px;
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  background: gray;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  border: 1px solid #9c9898;
+  background: #9c9898;
+}
+
+.cancelButton {
+  border: 1px solid #c93d25;
+  background: #c93d25;
+}
+
+.cancelButton:hover,
+.cancelButton:active {
+  border: 1px solid #ff6347;
+  background: #ff6347;
+}
+
+@media (min-width: 1160px) {
+  .todoItem {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    gap: 0;
+  }
+
+  .todoItemContent {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .todoItemStatusContainer {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .todoItemLabel {
+    width: 65%;
+  }
+
+  .todoItemDate {
+    width: 20%;
+    text-align: center;
+  }
+
+  .todoItemActions {
+    flex-direction: row;
+  }
+}
